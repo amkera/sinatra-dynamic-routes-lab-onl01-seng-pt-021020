@@ -37,8 +37,13 @@ class App < Sinatra::Base
     @op = params[:operation]
     
     if @op == "add"
-      #
+      "#{@num1}"
     elsif @opp == "subtract"
+    
+    elsif @op == "multiply"
+     
+    else 
+      
     
   end 
 
